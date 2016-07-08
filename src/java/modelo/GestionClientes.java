@@ -31,7 +31,7 @@ public class GestionClientes {
     }
 
     public void registrar(RegistroForm rf) {
-        String query = "insert into cliente values ('" + rf.getNombre() + "','" + rf.getApellidos() + "','" + rf.getUsuario() + "','" + rf.getPassword() + "','" + rf.getEmail() + "')";
+        String query = "insert into cliente (nombre, apellidos, usuario, password, email) values ('" + rf.getNombre() + "','" + rf.getApellidos() + "','" + rf.getUsuario() + "','" + rf.getPassword() + "','" + rf.getEmail() + "')";
         System.out.println(query);
 
         try {
