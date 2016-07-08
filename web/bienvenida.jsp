@@ -14,7 +14,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1> Bienvenido a la página de Andrea <i>
+        <h1> Bienvenido a la página Gestión de Proyectos y Proyectos de Titulación <i>
                 <bean: write name="ValidacionForm" property="usuario" > </bean:>
         </i></h1>
 </h1>
