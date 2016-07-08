@@ -7,7 +7,7 @@ package modelo;
 
 import java.sql.*;
 
-
+//hola andre
 public class Datos {
 
     private String driver;
